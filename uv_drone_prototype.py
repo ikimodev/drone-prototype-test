@@ -1,12 +1,11 @@
+# NIGHTFALL: UV-Fluorescent Distress Marker
+# Phase 1: Prototype Perception Pipeline
+# ==========================================
+
 import cv2
 import numpy as np
 import time
 import json
-
-# ==========================================
-# NIGHTFALL: UV-Fluorescent Distress Marker
-# Phase 1: Prototype Perception Pipeline
-# ==========================================
 
 # 1. Semantic Translation Table (Ontology)
 SHAPE_TO_COMMAND = {
